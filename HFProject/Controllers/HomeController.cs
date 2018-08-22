@@ -42,7 +42,7 @@ namespace HFProject.Controllers
             _context.Customers.Add(customer);
             _context.SaveChanges();
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Confirmation", "Home");
         }
 
         public IActionResult About()
@@ -55,6 +55,13 @@ namespace HFProject.Controllers
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
+
+        public IActionResult Confirmation()
+        {
+            ViewData["Message"] = "Your confirmation page.";
 
             return View();
         }
