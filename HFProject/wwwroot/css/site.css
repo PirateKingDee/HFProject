@@ -10,9 +10,10 @@
     padding-right: 15px;
 }
 
-.content {
-    margin-top: 30px;
+.content{
+    margin-top:30px;
 }
 /* Hide/rearrange for smaller screens */
 @media screen and (max-width: 767px) {
+    
 }
