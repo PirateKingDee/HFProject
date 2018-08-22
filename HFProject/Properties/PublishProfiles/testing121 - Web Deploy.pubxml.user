@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAADmyJf1sbYkuyZSeA6hey3AAAAAACAAAAAAADZgAAwAAAABAAAABOkSjHBfDspTucuJPIr4QyAAAAAASAAACgAAAAEAAAAARjMJ+RP13Z0pFpEsJ9eOuAAAAAtQYBbqElIPqwqjZ/B15XYylKfCjRp93oaaU68PR7AwrRfHyWcTw+n0peI3DnmtCfJSfuHrG4Ghnp1/64tiolAzbO/N3PxTiGQeO5ZfHp2NR1oYE+o7pa2JUp/1KJfQps9O0EzkW7FMz6VJK4lyQmgnXqlb7i0ZII+eq1zN0XI0IUAAAA7WJhIoVJqtnxW/Pr4vB6m6IBUkw=</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Development">
+      <Value>Server=tcp:hfproject.database.windows.net,1433;Initial Catalog=HFProject;Persist Security Info=False;User ID=aliang;Password=hfproject1!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

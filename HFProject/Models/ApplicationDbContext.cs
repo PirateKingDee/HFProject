@@ -11,7 +11,7 @@ namespace HFProject.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=HFProject;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer(@"Server=tcp:hfproject.database.windows.net,1433;Initial Catalog=HFProject;Persist Security Info=False;User ID=aliang;Password=hfproject1!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             }
         }
     }
