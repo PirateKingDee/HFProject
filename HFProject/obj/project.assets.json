@@ -12663,23 +12663,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aliang\\.nuget\\packages\\": {},
+    "C:\\Users\\axu\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aliang\\Desktop\\HFProject\\HFProject\\HFProject.csproj",
+      "projectUniqueName": "C:\\Users\\axu\\Documents\\hackfest\\HFProject\\HFProject\\HFProject.csproj",
       "projectName": "HFProject",
-      "projectPath": "C:\\Users\\aliang\\Desktop\\HFProject\\HFProject\\HFProject.csproj",
-      "packagesPath": "C:\\Users\\aliang\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aliang\\Desktop\\HFProject\\HFProject\\obj\\",
+      "projectPath": "C:\\Users\\axu\\Documents\\hackfest\\HFProject\\HFProject\\HFProject.csproj",
+      "packagesPath": "C:\\Users\\axu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\axu\\Documents\\hackfest\\HFProject\\HFProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\aliang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\axu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
