@@ -8,7 +8,7 @@ namespace HFProject.Models
         public int AppointmentId { get; set; }
 
         [ForeignKey("Customer")]
-        public int UserId { get; set; }
+        public int CustomerId { get; set; }
         public DateTime AppointmentDate { get; set; }
         public string Type { get; set; }
         public string Note { get; set; }
