@@ -6731,7 +6731,7 @@
       ]
     },
     "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
-      "sha512": "H6ZsQzxYw/6k2DfEQRXdC+vQ6obd6Uba3uGJrnJ2vG4PRXjQZ7seB13JdCfE72abp8E6Fk3gGgDzfJiLZi5ZpQ==",
+      "sha512": "UMlN++q5qqzQ2HH+uOrKxN5fmBXMQDhrYkSaPJxhmyzfJaFPirrVr1raim/Ocq1psAZoB9+7JSAf0GDAX35wUg==",
       "type": "package",
       "path": "microsoft.extensions.platformabstractions/1.1.0",
       "files": [
@@ -12663,23 +12663,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aliang\\.nuget\\packages\\": {},
+    "C:\\Users\\blee\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aliang\\Desktop\\HFProject\\HFProject\\HFProject.csproj",
+      "projectUniqueName": "C:\\Users\\blee\\source\\repos\\HFProject\\HFProject\\HFProject.csproj",
       "projectName": "HFProject",
-      "projectPath": "C:\\Users\\aliang\\Desktop\\HFProject\\HFProject\\HFProject.csproj",
-      "packagesPath": "C:\\Users\\aliang\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aliang\\Desktop\\HFProject\\HFProject\\obj\\",
+      "projectPath": "C:\\Users\\blee\\source\\repos\\HFProject\\HFProject\\HFProject.csproj",
+      "packagesPath": "C:\\Users\\blee\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\blee\\source\\repos\\HFProject\\HFProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\aliang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\blee\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

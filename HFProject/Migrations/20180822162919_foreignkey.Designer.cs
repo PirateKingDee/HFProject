@@ -11,9 +11,10 @@ using System;
 namespace HFProject.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180822162919_foreignkey")]
+    partial class foreignkey
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -35,8 +36,6 @@ namespace HFProject.Migrations
 
                     b.HasKey("AppointmentId");
 
-                    b.HasIndex("CustomerId");
-
                     b.ToTable("Appointment");
                 });
 
@@ -54,14 +53,6 @@ namespace HFProject.Migrations
                     b.HasKey("CustomerId");
 
                     b.ToTable("Customers");
-                });
-
-            modelBuilder.Entity("HFProject.Models.Appointment", b =>
-                {
-                    b.HasOne("HFProject.Models.Customer")
-                        .WithMany("Appointments")
-                        .HasForeignKey("CustomerId")
-                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }
