@@ -5,17 +5,20 @@
 
 <h2>Appointment List</h2>
 
-<ul>
+<div class="container">
     @foreach (var appointment in Model.UpcomingAppointments)
     {
-    <ul>
-        <li>@appointment.FirstName</li>
-        <li>@appointment.LastName</li>
-        <li>@appointment.PhoneNumber</li>
-        <li>@appointment.Date</li>
-        <li>@appointment.Time</li>
-        <li>@appointment.Type</li>
-        <li>@appointment.Note</li>
-    </ul>
+    <div class="row appointment">
+        <div class="col-md-6">
+            <p>First Name: @appointment.FirstName</p>
+            <p>Last Name: @appointment.LastName</p>
+            <p>Phone #: @appointment.PhoneNumber</p>
+        </div>
+        <div class="col-md-6">
+            <p>@appointment.Date at @appointment.Time</p>
+            <p>Type: @appointment.Type</p>
+            <p>Notes: @appointment.Note</p>
+        </div>
+    </div>
     }
-</ul>
+</div>

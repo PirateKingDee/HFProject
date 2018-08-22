@@ -17,6 +17,14 @@ namespace HFProject.Models
                 return DateTime.Parse(string.Format("{0} {1}", Date, Time));
             }
         }
+
+        public string DisplayDate
+        {
+            get
+            {
+                return this.DateTime.Month.ToString() + "/" + this.DateTime.Date.ToString() + "/" + this.DateTime.Year.ToString();
+            }
+        }
         public string Type { get; set; }
         public string Note { get; set; }
     }

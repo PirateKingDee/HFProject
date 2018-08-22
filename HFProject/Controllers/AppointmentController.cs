@@ -30,7 +30,7 @@ namespace HFProject.Controllers
                     FirstName = customer.FirstName,
                     LastName = customer.LastName,
                     PhoneNumber = customer.PhoneNumber,
-                    Date = appointment.AppointmentDate.Date.ToString(),
+                    Date = appointment.AppointmentDate.Month.ToString() + "/" + appointment.AppointmentDate.Day.ToString() + "/" + appointment.AppointmentDate.Year.ToString(),
                     Time = appointment.AppointmentDate.TimeOfDay.ToString(),
                     Type = appointment.Type,
                     Note = appointment.Note
