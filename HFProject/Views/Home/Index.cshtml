@@ -1,24 +1,39 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model HFProject.Models.AppointmentForm
+@{
+    ViewData["Title"] = "Appointment Form";
 }
 
 
-    @using (Html.BeginForm("Index", "Home"))
-    {
-        <div class="form-group">
-            @Html.LabelFor(m => m.FirstName)
-            @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
-        </div>
-        <div class="form-group">
-            @Html.LabelFor(m => m.LastName)
-            @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
-        </div>
-        <div class="form-group">
-            @Html.LabelFor(m => m.Date)
-        </div>
-        <div class="form-group">
-            @Html.LabelFor(m => m.Time)
-            @Html.DropDownListFor(m => m.Time, new SelectList(Model.Time, "Time"), "", new { @class = "form-control" })
-        </div>
-        <button type="submit" class="btn btn-primary">Save</button>
-    }
+@using (Html.BeginForm("MakeAppointment", "Home"))
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.FirstName)
+        @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.LastName)
+        @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.PhoneNumber)
+        @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Date)
+        @Html.TextBoxFor(m => m.Date, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Time)
+        @Html.TextBoxFor(m => m.Time, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Type)
+        @Html.TextBoxFor(m => m.Type, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Note)
+        @Html.TextBoxFor(m => m.Note, new { @class = "form-control" })
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+}
