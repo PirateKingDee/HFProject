@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using HFProject.Models;
 using Microsoft.AspNetCore.Mvc;
-using HFProject.Models;
+using System.Diagnostics;
 
 namespace HFProject.Controllers
 {
