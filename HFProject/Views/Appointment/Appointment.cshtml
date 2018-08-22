@@ -1,0 +1,21 @@
+﻿@model HFProject.Models.AppointmentViewModel
+@{
+    ViewData["Title"] = "AppointmentList";
+}
+
+<h2>Appointment List</h2>
+
+<ul>
+    @foreach (var appointment in Model.UpcomingAppointments)
+    {
+    <ul>
+        <li>@appointment.FirstName</li>
+        <li>@appointment.LastName</li>
+        <li>@appointment.PhoneNumber</li>
+        <li>@appointment.Date</li>
+        <li>@appointment.Time</li>
+        <li>@appointment.Type</li>
+        <li>@appointment.Note</li>
+    </ul>
+    }
+</ul>
