@@ -6,9 +6,38 @@ namespace HFProject.Controllers
 {
     public class HomeController : Controller
     {
+        private ApplicationDbContext _context;
+
+        public HomeController()
+        {
+            _context = new ApplicationDbContext();
+        }
+
         public IActionResult Index()
         {
             return View();
+        }
+
+        [HttpPost]
+        public ActionResult MakeAppointment(AppointmentForm form)
+        {
+            Customer customer = new Customer();
+            customer.FirstName = form.FirstName;
+            customer.LastName = form.LastName;
+            customer.PhoneNumber = form.PhoneNumber;
+
+            Appointment appointment = new Appointment();
+            appointment.AppointmentDate = form.DateTime;
+            appointment.Type = form.Type;
+            appointment.Note = form.Note;
+
+            customer.Appointments = new System.Collections.ObjectModel.Collection<Appointment>();
+            customer.Appointments.Add(appointment);
+
+            _context.Customers.Add(customer);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Home");
         }
 
         public IActionResult About()
