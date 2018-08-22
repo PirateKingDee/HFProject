@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\blee\source\repos\HFProject\HFProject\obj\Release\netcoreapp2.0\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\blee\source\repos\HFProject\HFProject\obj\Release\netcoreapp2.0\PubTmp\EFSQLScripts\HFProject.Models.ApplicationDbContext.sql" />
+</sitemanifest>

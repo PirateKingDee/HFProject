@@ -12,5 +12,7 @@ namespace HFProject.Models
         public DateTime AppointmentDate { get; set; }
         public string Type { get; set; }
         public string Note { get; set; }
+
+        public virtual Customer Customer { get; set; }
     }
 }

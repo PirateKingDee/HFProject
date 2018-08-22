@@ -58,7 +58,7 @@ namespace HFProject.Migrations
 
             modelBuilder.Entity("HFProject.Models.Appointment", b =>
                 {
-                    b.HasOne("HFProject.Models.Customer")
+                    b.HasOne("HFProject.Models.Customer", "Customer")
                         .WithMany("Appointments")
                         .HasForeignKey("CustomerId")
                         .OnDelete(DeleteBehavior.Cascade);

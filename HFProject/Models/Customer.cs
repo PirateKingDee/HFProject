@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace HFProject.Models
@@ -11,6 +11,6 @@ namespace HFProject.Models
         public string LastName { get; set; }
         public string PhoneNumber { get; set; }
 
-        public ICollection<Appointment> Appointments { get; set; }
+        public Collection<Appointment> Appointments { get; set; }
     }
 }

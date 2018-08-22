@@ -20,3 +20,4 @@ C:\Users\blee\source\repos\HFProject\HFProject\obj\Debug\netcoreapp2.0\HFProject
 C:\Users\blee\source\repos\HFProject\HFProject\obj\Debug\netcoreapp2.0\HFProject.AssemblyInfo.cs
 C:\Users\blee\source\repos\HFProject\HFProject\obj\Debug\netcoreapp2.0\HFProject.dll
 C:\Users\blee\source\repos\HFProject\HFProject\obj\Debug\netcoreapp2.0\HFProject.pdb
+C:\Users\blee\source\repos\HFProject\HFProject\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs

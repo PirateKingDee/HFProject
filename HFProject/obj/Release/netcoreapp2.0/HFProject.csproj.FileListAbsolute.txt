@@ -1,0 +1,12 @@
+C:\Users\blee\source\repos\HFProject\HFProject\bin\Release\netcoreapp2.0\HFProject.deps.json
+C:\Users\blee\source\repos\HFProject\HFProject\bin\Release\netcoreapp2.0\HFProject.runtimeconfig.json
+C:\Users\blee\source\repos\HFProject\HFProject\bin\Release\netcoreapp2.0\HFProject.runtimeconfig.dev.json
+C:\Users\blee\source\repos\HFProject\HFProject\bin\Release\netcoreapp2.0\HFProject.dll
+C:\Users\blee\source\repos\HFProject\HFProject\bin\Release\netcoreapp2.0\HFProject.pdb
+C:\Users\blee\source\repos\HFProject\HFProject\obj\Release\netcoreapp2.0\HFProject.csprojAssemblyReference.cache
+C:\Users\blee\source\repos\HFProject\HFProject\obj\Release\netcoreapp2.0\HFProject.csproj.CoreCompileInputs.cache
+C:\Users\blee\source\repos\HFProject\HFProject\obj\Release\netcoreapp2.0\HFProject.AssemblyInfoInputs.cache
+C:\Users\blee\source\repos\HFProject\HFProject\obj\Release\netcoreapp2.0\HFProject.AssemblyInfo.cs
+C:\Users\blee\source\repos\HFProject\HFProject\obj\Release\netcoreapp2.0\HFProject.dll
+C:\Users\blee\source\repos\HFProject\HFProject\obj\Release\netcoreapp2.0\HFProject.pdb
+C:\Users\blee\source\repos\HFProject\HFProject\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
