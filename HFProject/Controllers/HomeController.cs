@@ -18,6 +18,11 @@ namespace HFProject.Controllers
             return View();
         }
 
+        public IActionResult Schedule()
+        {
+            return View();
+        }
+
         [HttpPost]
         public ActionResult MakeAppointment(AppointmentForm form)
         {
